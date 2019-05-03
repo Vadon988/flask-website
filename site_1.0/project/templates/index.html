@@ -1,0 +1,75 @@
+{% extends 'layout.html' %}
+{% block body %}
+	<div class="index-wrapper">
+		<div class="box row">
+			<nav class="navbar col-lg-12">1</nav>
+			<div class="col-lg-12">2</div>
+		</div>
+		<br>
+		<!---->
+		<div class="box row">
+			<nav class="navbar col-lg-12">
+				<div class="box-logo">
+					<i class="box-bars fas fa-bars"></i>
+					<span>
+						<a href="">
+							<img src="{{url_for('static',filename='img/wiki_logo.png')}}" alt="" style="width:25px;height:25px;">
+						</a>
+					</span>
+				</div>
+				<form class="box-form" action="">
+					<input type="text">
+					<button>W</button>
+				</form>
+				<div class="box-tog">
+					<i class="fas fa-ellipsis-v"></i>
+				</div>
+			</nav>
+			<div class="box-hidden-nav col-lg-12 bg-info">H</div>
+			<div class="side-box col-lg-3 bg-warning">2</div>
+			<div class="content-box col-lg-9">
+				<div class="box-hidden-col bg-danger">B</div>
+				3
+			</div>
+		</div>
+		<br>
+		<!---->
+		<div class="box row">
+			<nav class="navbar col-lg-12">
+				<div class="box-logo">
+					<i class="box-bars fas fa-bars"></i>
+					<span>1</span>
+				</div>
+				<div class="box-tog">
+					<i class="fas fa-ellipsis-v"></i>
+				</div>
+			</nav>
+			<div class="box-hidden-nav col-lg-12 bg-info">H</div>
+			<div class="side-box col-lg-3 bg-warning">2</div>
+			<div class="content-box col-lg-9">
+				<div class="box-hidden-col bg-danger">B</div>
+				3
+			</div>
+		</div>
+		<br>
+		<!---->
+		<div class="box row">
+			<nav class="navbar col-lg-12">
+				<div class="box-logo">
+					<i class="box-bars fas fa-bars"></i>
+					<span>1</span>
+				</div>
+				<div class="box-tog">
+					<i class="fas fa-ellipsis-v"></i>
+				</div>
+			</nav>
+			<div class="box-hidden-nav col-lg-12 bg-info">H</div>
+			<div class="side-box col-lg-3 bg-warning">2</div>
+			<div class="content-box col-lg-9">
+				<div class="box-hidden-col bg-danger">B</div>
+				3
+			</div>
+		</div>
+	<!--END-->
+	</div>
+{% endblock %}
